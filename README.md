@@ -1,6 +1,6 @@
 # Yazi Smart Paste
 
-A lightning-fast, native Rust utility for the [Yazi](https://sxyazi.github.io/yazi/) file manager that instantly pastes any content from your Wayland system clipboard—including `.docx` and `.pdf` documents, images, and text.
+A lightning-fast, native Rust utility for the [Yazi](https://github.com/sxyazi/yazi) file manager that instantly pastes any content from your Wayland system clipboard—including `.docx` and `.pdf` documents, images, and text.
 
 
 ## Prerequisites
