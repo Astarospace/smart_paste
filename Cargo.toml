@@ -1,0 +1,16 @@
+[package]
+name = "smart_paste"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[dependencies]
+wl-clipboard-rs = "0.9"
+chrono = "0.4"
+percent-encoding = "2.1"
