@@ -2,13 +2,13 @@
 
 A lightning-fast, native Rust utility for the [Yazi](https://sxyazi.github.io/yazi/) file manager that instantly pastes any content from your Wayland system clipboard—including `.docx` and `.pdf` documents, images, and text.
 
+
 ## Prerequisites
 
 - **Linux** running a **Wayland** compositor (Sway, Hyprland, KDE Plasma Wayland, Niri, etc.)
 - **Yazi** file manager installed
 - **Rust & Cargo** (required to build from source)
 
----
 
 ## Installation
 
@@ -35,9 +35,6 @@ A lightning-fast, native Rust utility for the [Yazi](https://sxyazi.github.io/ya
 ```
 
 
-
----
-
 ## Configuration
 
 Add the following keybinding to your Yazi `keymap.toml` file (typically located at `~/.config/yazi/keymap.toml`):
@@ -58,7 +55,6 @@ Add the following keybinding to your Yazi `keymap.toml` file (typically located 
 
 ```
 
----
 
 ## Usage
 
@@ -66,8 +62,9 @@ Add the following keybinding to your Yazi `keymap.toml` file (typically located 
 2. Navigate to your target directory inside Yazi.
 3. Press **`Ctrl + P`** to paste your clipboard contents instantly.
 
----
+
 ## License
-This plugin is MIT-licensed. For more information check the LICENSE file.
+
+This plugin is MIT-licensed. For more information check the [LICENSE](LICENSE) file.
 
 
