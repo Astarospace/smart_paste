@@ -18,22 +18,16 @@ A lightning-fast, native Rust utility for the [Yazi](https://github.com/sxyazi/y
    ```bash
    git clone [https://github.com/YOUR_USERNAME/smart_paste.git](https://github.com/YOUR_USERNAME/smart_paste.git)
    cd smart_paste
-```
 
 2. **Compile the release binary:**
-  ```bash
-  cargo build --release
-
-```
-
+   ```bash
+   cargo build --release
 
 3. **Install the binary to your Yazi configuration directory:**
   ```bash
   mkdir -p ~/.config/yazi
   cp target/release/smart_paste ~/.config/yazi/smart_paste_bin
-
 ```
-
 
 ## Configuration
 
